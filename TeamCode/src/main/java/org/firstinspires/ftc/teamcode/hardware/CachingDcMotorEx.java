@@ -18,7 +18,6 @@ public class CachingDcMotorEx implements DcMotorEx, Robot.Listener {
     private boolean needsPowerUpdate = false;
     private boolean needsVelocityUpdate = false;
     private AngleUnit angleUnit = AngleUnit.RADIANS;
-
     public CachingDcMotorEx(DcMotorEx delegate) {
         this.delegate = delegate;
     }
